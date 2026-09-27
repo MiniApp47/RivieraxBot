@@ -1831,7 +1831,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Clic sur "Confirmer la commande" (VERSION WHATSAPP DIRECT)
     if (target.closest("#confirm-order-button")) {
       // 1. TON NUMÉRO WHATSAPP (Format international sans le +)
-      const myPhoneNumber = "33602744423";
+      const myPhoneNumber = "";
 
       // 2. On prépare le message
       let message = formatOrderMessage();
